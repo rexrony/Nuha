@@ -24,7 +24,6 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	color: #556577; box-sizing: content-box;
-  overflow: hidden;
 }
 
 
@@ -226,7 +225,7 @@ color:var(--color1);
 */
 
 .fold1{ background: url(../img/bg/header.jpg) no-repeat; background-size: cover; min-height:  calc(100vh - 82px - 00px); position: relative; display: flex;}
-.fold1 .lhs{ display: flex; flex-flow: row wrap; align-content: center;  padding-left: 90px;}
+.fold1 .lhs{ display: flex; flex-flow: row wrap; align-content: center;  padding-left: 90px;padding-top: 15px;}
 .fold1 .logo1{ margin-bottom: 40px; flex: 1 100%;}
 .fold1 .logo1 IMG{ width: 324px;}
 .fold1 h1{ font-size: 45px; flex: 1 100%;}
