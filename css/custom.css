@@ -156,7 +156,7 @@ color:var(--color1);
 *     Vertical panels
 * ==========================================================
 */
-.cn-v{ display: flex; flex-flow: row wrap}
+.cn-v{ display: flex; flex-flow: row wrap;overflow: hidden;}
 
 .sidebar{ width: 136px;  text-transform: uppercase; color: #fff; text-align: center; min-height: 100vh;
 	position: fixed;

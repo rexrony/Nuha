@@ -22,7 +22,7 @@
   text-align: center;
   color: #fff;
 }
-
+.responsive-expand {cursor: pointer;}
 @media screen and (max-width: 800px) {
   .aos-item {
     width: 50%;
@@ -32,7 +32,7 @@
   .v2{margin-left: 0px;}
   .sidebar-anchors {display: none;}
   .navwidth{min-width: 320px;}
-  .sidebar{top: 0px; }
+  .sidebar{top: 0px;position: absolute; }
   .fold1 .lhs{padding-left: 15px; padding-right: 15px;}
   .v2 .top2{text-align: center;}
   .sidebar > header{height: 56px;line-height: 55px}
